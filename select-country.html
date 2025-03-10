@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Country</title>
+    <link rel="stylesheet" href="css/style-country.css">
+</head>
+<body>
+    <h1>Select Your Country</h1>
+    <select id="country-select">
+        <option value="canada">CANADA</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="australia">AUSTRALIA</option>
+        <option value="germany">GERMANY</option>
+    </select>
+    <button id="proceed-btn">Proceed</button>
+
+    <script>
+        document.getElementById("proceed-btn").addEventListener("click", function() {
+            const selectedCountry = document.getElementById("country-select").value;
+            localStorage.setItem("selectedCountry", selectedCountry);
+            window.location.href = "university-list.html";
+        });
+    </script>
+</body>
+</html>
