@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: black;
+}
+
+#university-details {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+p, ul {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: wheat;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
